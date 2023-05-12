@@ -1,0 +1,11 @@
+var a=5;
+var b=6;
+console.log("Before swarp: a =",a,"b=",b);
+var temp=a;
+a=b;
+b=temp;
+console.log("After swarp: a=",a,"b= ",b);
+var p=10;
+var q=12;
+[p,q]=[q,p];
+console.log("After swarp : p=",p," q=",q);
